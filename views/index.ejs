@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Please, enter a list of articles to put in boxes.</p>
+
+    <form name="form1" method="POST" action="/result">
+      <label for="articles">List of articles</label>
+      <input type="text" id="articles" name="articles" />
+    </form>
+  </body>
+</html>
